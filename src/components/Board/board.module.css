@@ -1,0 +1,16 @@
+.board {
+  display: grid;
+  grid-template-columns: 4rem 4rem 4rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 4rem;
+}
+
+.square {
+  border: 1px #cccccc solid;
+  height: 4rem;
+  width: 4rem;
+  font-size: 3rem;
+  cursor: pointer;
+}

@@ -1,0 +1,23 @@
+.game {
+  display: flex;
+}
+
+.boardContainer {
+  max-width: 12rem;
+}
+
+.boardHeader {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+}
+
+.blinkMe {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}

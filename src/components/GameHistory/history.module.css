@@ -1,0 +1,10 @@
+.title {
+  margin-top: 1rem;
+}
+
+.historyList {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column-reverse;
+  row-gap: 0.2rem;
+}
